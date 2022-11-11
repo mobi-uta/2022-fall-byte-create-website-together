@@ -171,7 +171,7 @@ git pull
 
 ## Technology Used for Website
 
-This will be deployed with [Vercel](https://vercel.com/) and is using the [Eleventy](https://www.11ty.dev/) SSG.
+This will be deployed with [Netlify](https://www.netlify.com/) and is using the [Eleventy](https://www.11ty.dev/) SSG.
 
 ## Running the Website
 

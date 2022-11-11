@@ -220,3 +220,6 @@ $RECYCLE.BIN/
 # Eleventy Output
 _site
 .vercel
+
+# Local Netlify folder
+.netlify
