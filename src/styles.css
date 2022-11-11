@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap");
+
+:root {
+  --color-main: #7d3b00;
+  --color-background: #ffcc90;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+html,
+body {
+  height: 100%;
+
+  color: var(--color-main);
+  background: var(--color-background);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin: 3rem;
+
+  flex-grow: 1;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+a:visited {
+  color: unset;
+  text-decoration: none;
+}
+
+header,
+footer {
+  margin: 2rem 3rem;
+}
+
+footer {
+  margin-bottom: 0;
+}
+
+footer > div {
+  padding: 1rem;
+
+  font-weight: 300;
+}
+
+hr {
+  border-color: var(--color-main);
+  border-width: 0.5px;
+  border-style: solid;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 1rem;
+
+  font-size: 1.5rem;
+}
+
+.header-title {
+  font-weight: 300;
+}
+
+.hero-title,
+h1 {
+  font-size: 6rem;
+  line-height: 1;
+
+  margin-bottom: 3rem;
+}
+
+p {
+  font-weight: 300;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.profile-grid-item * {
+  font-size: 6rem;
+  font-weight: 300;
+}

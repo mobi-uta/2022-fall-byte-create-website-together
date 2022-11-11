@@ -1,0 +1,10 @@
+---
+layout: layouts/layout.njk
+---
+<h1 class="hero-title">We’re having a lot of fun this semester. Here’s what we’ve been up to.</h1>
+
+<section class="profile-grid">
+    {%- for profile in collections.profile -%}
+        <article class="profile-grid-item"><a href={{profile.url}}><div>{{profile.data.name}}</div></a></article>
+    {%- endfor -%}
+</section>

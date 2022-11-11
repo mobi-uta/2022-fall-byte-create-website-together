@@ -1,0 +1,24 @@
+{
+  "name": "2022-fall-byte-create-website-together",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --input=src --output=_site --serve",
+    "build": "npx @11ty/eleventy --input=src --output=_site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobi-uta/2022-fall-byte-create-website-together.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mobi-uta/2022-fall-byte-create-website-together/issues"
+  },
+  "homepage": "https://github.com/mobi-uta/2022-fall-byte-create-website-together#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
