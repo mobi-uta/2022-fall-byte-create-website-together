@@ -1,5 +1,8 @@
 # 2022-fall-byte-create-website-together
 
+### View the Website [live on Netlify](https://friendly-klepon-e91910.netlify.app/)
+Changes made to this repository automatically get updated on Netlify. (woah that's so cool)
+
 Learn how to work together as developers _in any kind of programming language_. We'll be doing this by building a website, together.
 
 By the end of this Byte, you'll know how to:
